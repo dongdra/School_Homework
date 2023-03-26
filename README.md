@@ -4,13 +4,21 @@
 과제 제출하겠습니다.
 
 PS C:\Users\dong9\OneDrive\바탕 화면> python
+
 Python 3.11.2 (tags/v3.11.2:878ead1, Feb  7 2023, 16:38:35) [MSC v.1934 64 bit (AMD64)] on win32
+
 Type "help", "copyright", "credits" or "license" for more information.
+
 >>> import pcost
+
 >>> pcost.portfolio_cost('portfolio.csv')
+
 44671.15
+
 >>> import report
+
 >>> report.portfolio_report('portfolio.csv', 'prices.csv')
+ 
       Name     Shares      Price     Change
 ---------- ---------- ---------- ---------- 
         AA        100       9.22     -22.98
