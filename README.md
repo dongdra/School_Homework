@@ -9,15 +9,15 @@ Python 3.11.2 (tags/v3.11.2:878ead1, Feb  7 2023, 16:38:35) [MSC v.1934 64 bit (
 
 Type "help", "copyright", "credits" or "license" for more information.
 
->>> import pcost
+import pcost
 
->>> pcost.portfolio_cost('portfolio.csv')
+pcost.portfolio_cost('portfolio.csv')
 
 44671.15
 
->>> import report
+import report
 
->>> report.portfolio_report('portfolio.csv', 'prices.csv')
+report.portfolio_report('portfolio.csv', 'prices.csv')
  
       Name     Shares      Price     Change
 ---------- ---------- ---------- ---------- 
