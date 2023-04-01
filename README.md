@@ -59,6 +59,7 @@ IBM,100,106.28,35.84
 report.portfolio_report('portfolio.csv','prices.csv','txt')
    
    Name      Shares     Price      Change
+   -------------------------------------------
         AA        100       9.22     -22.98
        IBM         50     106.28      15.18
        CAT        150      35.46     -47.98
