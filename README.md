@@ -56,6 +56,7 @@ MSFT,50,20.89,-44.21
 IBM,100,106.28,35.84
 
 report.portfolio_report('portfolio.csv','prices.csv','txt')
+   
    Name      Shares     Price      Change
 -------------------------------------------
         AA        100       9.22     -22.98
