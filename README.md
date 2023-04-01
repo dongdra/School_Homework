@@ -38,15 +38,10 @@ Python 3.11.2 (tags/v3.11.2:878ead1, Feb  7 2023, 16:38:35) [MSC v.1934 64 bit (
 
 Type "help", "copyright", "credits" or "license" for more information.
 
-import pcost
-
-pcost.portfolio_cost('portfolio.csv')
-
-44671.15
-
 import report
 
 report.portfolio_report('portfolio.csv','prices.csv','csv')
+
 Name,Shares,Price,Change
 AA,100,9.22,-22.98
 IBM,50,106.28,15.18
@@ -57,7 +52,6 @@ MSFT,50,20.89,-44.21
 IBM,100,106.28,35.84
 
 report.portfolio_report('portfolio.csv','prices.csv','txt')
-   
    Name      Shares     Price      Change
    -------------------------------------------
         AA        100       9.22     -22.98
